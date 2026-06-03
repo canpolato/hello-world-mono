@@ -1,0 +1,4 @@
+image:
+  repository: canpolatoral/hello-world
+  pullPolicy: IfNotPresent
+  tag: develop-18ca2e5d2a17ea2f3d35382d239bb472cffac6c2
