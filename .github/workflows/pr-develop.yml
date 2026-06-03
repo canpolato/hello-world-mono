@@ -1,0 +1,10 @@
+name: Pull Request to Develop
+
+on:
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  central:
+    uses: canpolato/core-pipelines/.github/workflows/core-pr-develop.yml@main
+    secrets: inherit

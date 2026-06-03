@@ -1,0 +1,11 @@
+name: Push to Main
+
+on:
+  pull_request:
+    types: [ closed ]
+    branches: [ "main" ]
+
+jobs:
+  central:
+    uses: canpolato/core-pipelines/.github/workflows/core-push-main.yml@main
+    secrets: inherit

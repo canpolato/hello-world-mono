@@ -1,0 +1,10 @@
+name: Pull Request to Main
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  central:
+    uses: canpolato/core-pipelines/.github/workflows/core-pr-main.yml@main
+    secrets: inherit
