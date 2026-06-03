@@ -11,5 +11,5 @@ on:
 
 jobs:
   central:
-    uses: canpolato/core-pipelines/.github/workflows/core-push-develop.yml@main
+    uses: canpolato/core-pipelines-mono/.github/workflows/core-push-develop.yml@main
     secrets: inherit

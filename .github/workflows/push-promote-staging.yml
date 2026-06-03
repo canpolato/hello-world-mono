@@ -15,7 +15,7 @@ on:
 
 jobs:
   central:
-    uses: canpolato/core-pipelines/.github/workflows/core-promote-staging.yml@main
+    uses: canpolato/core-pipelines-mono/.github/workflows/core-promote-staging.yml@main
     secrets: inherit
     with:
       cr_number: ${{ inputs.cr_number }}
